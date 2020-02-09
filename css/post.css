@@ -1,0 +1,76 @@
+@charset "UTF-8";
+
+table {
+	padding: 20px 0;
+	margin: 0 auto;
+	border-collapse: collapse;
+}
+
+tr {
+	border-bottom: 1px solid silver;
+}
+
+td {
+	padding: 10px 0;
+}
+
+td a, td a:visited, td a:hover, #sign-up-div p a, #sign-up-div p a:visited, #sign-up-div p a:hover {
+	color: dimgray;
+	text-decoration: none;
+}
+
+td a:hover, #sign-up-div p a:hover {
+	text-decoration: underline;
+}
+
+
+
+#sign-up-div p {
+	text-align: center;
+	padding: 20px 0;
+}
+
+.tr-head{
+	text-align: center;
+	font-weight: bold;
+}
+
+.td1, .td3, .td4, .td5 {
+	text-align: center;
+}
+
+.td1 {
+	width: 100px;
+}
+
+.td2 {
+	width: 420px;
+}
+
+.td3 {
+	width: 100px;
+}
+
+.td4 {
+	width: 180px;
+}
+
+.td5 {
+	width: 100px;
+}
+
+.finish {
+	color: darkcyan;
+}
+
+.not-finish {
+	color: orange;
+}
+
+.input-group {
+	border-bottom: 1px solid dimgray;
+}
+
+.content-group {
+	min-height: 200px;
+}
